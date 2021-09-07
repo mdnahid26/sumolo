@@ -1,0 +1,82 @@
+@media(min-width:1400px){
+
+}
+
+@media(min-width:1200px) and (max-width:1399.98px){
+
+}
+
+@media(min-width:992px) and (max-width:1199.98px){
+    #my_nav #nav_menu ul li a{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+    #slider .slider_item h2{
+        font-size: 46px;
+    }
+    #about .section_ttl h2{
+        font-size: 52px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.98px){
+
+}
+@media(max-width:991.98px){
+    #my_nav #moblile_menu{
+        background-color: #fff;
+        box-shadow: 3px 4px 15px #0000001A;
+    }
+    #my_nav #moblile_menu ul li a{
+        display: inline-block;
+        color: #333;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        padding: 10px 5%;
+        border-bottom: 1px solid rgba(217, 217, 217, 0.5);
+        width: 100%;
+        position: relative;
+    }
+    #my_nav #moblile_menu ul li .dropdown-menu{
+        border: none;
+    }
+    #my_nav #moblile_menu ul li ul li a{
+        opacity: .8;
+        padding-left: 10%;
+    }
+    #my_nav #moblile_menu .dropdown_btn::after{
+        content: '\f067';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 700;
+        right: 15px;
+        position: absolute;
+    }
+    #my_nav #moblile_menu.active .dropdown_btn::after{
+        content: '\f068';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 700;
+        right: 15px;
+        position: absolute;
+    }
+    
+}
+@media(max-width:767.98px){
+    #slider .slider_item h2{
+        font-size: 32px;
+    }
+    #slider .slider_item p{
+        padding: 0;
+    }
+    #about .section_ttl h2{
+        font-size: 42px;
+    }
+    #about .about_item h2{
+        font-size: 193px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+}
