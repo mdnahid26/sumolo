@@ -7,6 +7,19 @@ $(function(){
         fade: true,
         cssEase: 'linear'
     })
+    $('.gallery_slick').slick({
+        arrows:false,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        slidesToShow:3,
+    })
+    $('.testmonial_slick').slick({
+        arrows:false,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        slidesToShow:3, 
+        dots: true,
+    })
     //toggle button
     $('.toggle_btn').on('click',function(){
         $('#my_nav').toggleClass('active')
@@ -14,4 +27,10 @@ $(function(){
     $('.dropdown_btn').on('click',function(){
         $('#moblile_menu').toggleClass('active')
     })
+
+    //counter up
+    $('.count').counterUp({
+        delay: 10,
+        time: 1000
+    });
 })
