@@ -51,6 +51,9 @@ $(function(){
               },]
         
     })
+    $('.blog_slick').slick({
+        slidesToShow:2,
+    })
     //toggle button
     $('.toggle_btn').on('click',function(){
         $('#my_nav').toggleClass('active')

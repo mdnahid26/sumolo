@@ -752,3 +752,129 @@ input:focus,textarea{
     background-color: var(--red-color);
 }
 /*testmonial css end*/
+
+/*newslater css start*/
+#newslater{
+    background-image:url(../img/subscibe-bg.png) ;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+}
+#newslater .newslater_ttl .newslater_icon{
+    margin-right: 30px;
+    line-height: 87px;
+}
+#newslater .newslater_ttl .newslater_head h3{
+    font-size: 40px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--main-white-color);
+    
+}
+#newslater .newslater_ttl .newslater_head p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: var(--main-white-color);
+    margin-bottom: 15px;
+}
+#newslater .newslater_form {
+    position: relative;
+}
+#newslater .newslater_form input{
+    position: relative;
+    width: 100%;
+    border:1px solid;
+    padding: 9px 20px;
+    height: 64px;
+    border-radius: 30px;
+}
+#newslater .newslater_form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--red-color);
+    color: var(--main-white-color);
+    border-radius: 25px;
+    height: 55px;
+    padding: 0 30px;
+    margin: 4px 4px 0 0;
+
+}
+/*newslater css end*/
+
+/*chose css start*/
+#chose {
+    padding: 113px 0 120px;
+}
+#chose .chose_item .chose_ttl h3{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+#chose .chose_item .chose_item_dettils ul li{
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #777;
+    line-height: 26px;
+}
+#chose .chose_item .chose_item_dettils ul li::after{
+    content: '';
+    position: absolute;
+    border-left: 1px dotted #000;
+    width: 1px;
+    height: 100%;
+    left: 40px;
+}
+#chose .chose_item .chose_item_dettils ul li .num{
+    position: absolute;
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #ebebeb;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#chose .chose_item .chose_item_dettils ul li:hover .num{
+    background-color: var(--red-color);
+    color: var(--main-white-color);
+}
+#chose .chose_item .chose_item_dettils ul .last_li::after{
+    border: none;
+}
+/*chose css end*/
+
+/*blog css start*/
+#blog .blog_ttl h2{
+    font-size: 60px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--headding-color);
+}
+#blog .blog_ttl p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #777;
+    line-height: 26px;
+    margin: 15px 0;
+}
+.blog_item{
+    box-shadow:  0px 11px 16.15px 0.85px rgba(121, 121, 121, 0.07);
+}
+/*blog css end*/
