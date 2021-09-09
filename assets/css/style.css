@@ -268,11 +268,6 @@ input:focus,textarea{
 #about .about_item_container{
     position: relative;
 }
-#about .about_item_container .about_content{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
 #about .about_content p{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;

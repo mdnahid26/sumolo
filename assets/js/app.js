@@ -5,13 +5,36 @@ $(function(){
         nextArrow:'<i class="fas fa-chevron-right slider_arrow slider_right"></i>',
         speed: 500,
         fade: true,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        responsive:[
+            {
+                breakpoint: 768,
+                settings: {
+                  arrows:false,
+                }
+              },
+        ]
     })
     $('.gallery_slick').slick({
         arrows:false,
         autoplay: true,
         autoplaySpeed: 4000,
         slidesToShow:3,
+        responsive:[
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow:2,
+                }
+              },
+              {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+              }
+        ]
     })
     $('.testmonial_slick').slick({
         arrows:false,
@@ -19,6 +42,14 @@ $(function(){
         autoplaySpeed: 4000,
         slidesToShow:3, 
         dots: true,
+        responsive:[
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow:1,
+                }
+              },]
+        
     })
     //toggle button
     $('.toggle_btn').on('click',function(){

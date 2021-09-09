@@ -10,6 +10,9 @@
     #my_nav #nav_menu ul li a{
         font-size: 15px;
     }
+    #about .about_item h2::after{
+        right: 5px;
+    }
 }
 
 @media(min-width:768px) and (max-width:991.98px){
@@ -19,6 +22,10 @@
     #about .section_ttl h2{
         font-size: 52px;
     }
+    #services .section_ttl h3{
+        font-size: 52px;
+    }
+
 }
 
 @media(min-width:576px) and (max-width:767.98px){
@@ -62,6 +69,12 @@
         right: 15px;
         position: absolute;
     }
+    #slider .slider_container{
+        height: 650px;
+    }
+    #counter .counter_item{
+        margin-bottom: 20px;
+    }
     
 }
 @media(max-width:767.98px){
@@ -78,5 +91,27 @@
         font-size: 193px;
         margin-top: 0px;
         margin-bottom: 0;
+    }
+    #services .section_ttl h3{
+        font-size: 42px;
+    }
+    #gallery .gallery_item .gallery_item_bg h4{
+        font-size: 20px;
+    }
+}
+@media(max-width:575.98px){
+    #counter .counter_item{
+        margin-bottom: 70px;
+    }
+    #counter .counter_item .counter_bg_img{
+        display:block !important;
+    }
+}
+@media(max-width:360px){
+    #services .section_ttl h3{
+        font-size: 32px;
+    }
+    #counter .counter_item .counter_bg_img span{
+        font-size: 32px;
     }
 }
