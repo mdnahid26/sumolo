@@ -22,6 +22,9 @@
     #about .section_ttl h2{
         font-size: 52px;
     }
+    #about .about_item h2{
+        font-size: 270px;
+    }
     #services .section_ttl h3{
         font-size: 52px;
     }
@@ -29,7 +32,9 @@
 }
 
 @media(min-width:576px) and (max-width:767.98px){
-
+    #about .about_item h2::after{
+        left: 50%;
+    }
 }
 @media(max-width:991.98px){
     #my_nav #moblile_menu{
@@ -75,7 +80,9 @@
     #counter .counter_item{
         margin-bottom: 20px;
     }
-    
+    #chose .chose_item .chose_ttl h3{
+        font-size: 52px;
+    }
 }
 @media(max-width:767.98px){
     #slider .slider_item h2{
@@ -98,20 +105,46 @@
     #gallery .gallery_item .gallery_item_bg h4{
         font-size: 20px;
     }
+    #team .section_ttl h2{
+        font-size: 42px;
+    }
+    #testmonial .testmonial_ttl h2{
+        font-size: 42px;
+    }
 }
 @media(max-width:575.98px){
+    #about .about_item h2::after{
+        left: 67%;
+        bottom: 60px;
+    }
     #counter .counter_item{
         margin-bottom: 70px;
     }
     #counter .counter_item .counter_bg_img{
         display:block !important;
     }
+    #chose .chose_item .chose_ttl h3{
+        font-size: 42px;
+    }
+    #blog .blog_ttl h2{
+        font-size: 42px;
+    }
+
 }
 @media(max-width:360px){
+    #about .about_item h2::after{
+        left: 80%;
+        bottom: 55px;
+    }
     #services .section_ttl h3{
         font-size: 32px;
     }
     #counter .counter_item .counter_bg_img span{
         font-size: 32px;
+    }
+    #newslater .newslater_form button{
+        height: 46px;
+        padding: 0 15px;
+        margin: 9px 4px 0 0;
     }
 }

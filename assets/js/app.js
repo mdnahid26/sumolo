@@ -1,4 +1,23 @@
 $(function(){
+    $(window).on('scroll',function(){
+        if($(window).scrollTop() > 0){
+            $('#my_nav').addClass('stickynav')
+        }else{
+            $('#my_nav').removeClass('stickynav')
+        }
+    })
+
+    $(window).on('scroll',function(){
+        if($(window).scrollTop() > 400){
+            $('#backtotop').fadeIn('slow')
+        }else{
+            $('#backtotop').fadeOut('slow')
+        }
+    })
+
+    $('#backtotop').on('click',function(){
+        $('html,body').scrollTop(0)
+    })
     //slick slider
     $('.slider_slick').slick({
         prevArrow:'<i class="fas fa-chevron-left slider_arrow slider_left"></i>',
@@ -53,6 +72,15 @@ $(function(){
     })
     $('.blog_slick').slick({
         slidesToShow:2,
+        prevArrow:'<i class="fas fa-chevron-left blog_arrow blog_left"></i>',
+        nextArrow:'<i class="fas fa-chevron-right blog_arrow blog_right"></i>',
+        responsive:[
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow:1,
+                }
+              },]
     })
     //toggle button
     $('.toggle_btn').on('click',function(){
