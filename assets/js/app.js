@@ -95,4 +95,13 @@ $(function(){
         delay: 10,
         time: 1000
     });
+
+    //venobox
+    $('.video_vbox').venobox({
+
+    }); 
+    $('.gallery_vbox').venobox({
+        spinner:'three-bounce',
+        spinColor:'#111',
+    })
 })
